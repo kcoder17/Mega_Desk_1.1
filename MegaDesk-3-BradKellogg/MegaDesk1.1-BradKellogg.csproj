@@ -7,7 +7,7 @@
     <ProjectGuid>{9233590C-ED04-4201-8D47-F00DF794BEBC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MegaDesk_3_BradKellogg</RootNamespace>
-    <AssemblyName>MegaDesk-3-BradKellogg</AssemblyName>
+    <AssemblyName>MegaDesk1.1-BradKellogg</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -94,6 +94,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SearchQuotes.resx">
       <DependentUpon>SearchQuotes.cs</DependentUpon>
