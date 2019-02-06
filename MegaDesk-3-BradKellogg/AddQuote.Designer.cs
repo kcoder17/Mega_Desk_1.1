@@ -61,7 +61,7 @@
             this.addQuoteButton.Location = new System.Drawing.Point(174, 292);
             this.addQuoteButton.Name = "addQuoteButton";
             this.addQuoteButton.Size = new System.Drawing.Size(120, 35);
-            this.addQuoteButton.TabIndex = 1;
+            this.addQuoteButton.TabIndex = 8;
             this.addQuoteButton.Text = "Add Quote";
             this.addQuoteButton.UseVisualStyleBackColor = true;
             this.addQuoteButton.Click += new System.EventHandler(this.addQuoteButton_Click);
@@ -73,7 +73,7 @@
             this.cancelButton.Location = new System.Drawing.Point(371, 292);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(120, 35);
-            this.cancelButton.TabIndex = 2;
+            this.cancelButton.TabIndex = 9;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
@@ -84,7 +84,7 @@
             this.widthInput.Location = new System.Drawing.Point(153, 126);
             this.widthInput.Name = "widthInput";
             this.widthInput.Size = new System.Drawing.Size(100, 30);
-            this.widthInput.TabIndex = 3;
+            this.widthInput.TabIndex = 2;
             this.widthInput.Validating += new System.ComponentModel.CancelEventHandler(this.widthInput_Validating);
             this.widthInput.Validated += new System.EventHandler(this.widthInput_Validated);
             // 
@@ -114,7 +114,7 @@
             this.depthInput.Location = new System.Drawing.Point(153, 176);
             this.depthInput.Name = "depthInput";
             this.depthInput.Size = new System.Drawing.Size(100, 30);
-            this.depthInput.TabIndex = 6;
+            this.depthInput.TabIndex = 3;
             this.depthInput.Validating += new System.ComponentModel.CancelEventHandler(this.depthInput_Validating);
             this.depthInput.Validated += new System.EventHandler(this.depthInput_Validated);
             // 
@@ -138,7 +138,7 @@
             this.heightInput.Location = new System.Drawing.Point(153, 226);
             this.heightInput.Name = "heightInput";
             this.heightInput.Size = new System.Drawing.Size(100, 30);
-            this.heightInput.TabIndex = 8;
+            this.heightInput.TabIndex = 4;
             this.heightInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.heightInput_KeyPress);
             // 
             // depthErrorProvider
@@ -161,7 +161,7 @@
             this.drawersInput.Location = new System.Drawing.Point(507, 126);
             this.drawersInput.Name = "drawersInput";
             this.drawersInput.Size = new System.Drawing.Size(112, 30);
-            this.drawersInput.TabIndex = 9;
+            this.drawersInput.TabIndex = 5;
             this.drawersInput.Validating += new System.ComponentModel.CancelEventHandler(this.drawersInput_Validating);
             this.drawersInput.Validated += new System.EventHandler(this.drawersInput_Validated);
             // 
@@ -181,7 +181,7 @@
             this.nameInput.Location = new System.Drawing.Point(153, 76);
             this.nameInput.Name = "nameInput";
             this.nameInput.Size = new System.Drawing.Size(200, 30);
-            this.nameInput.TabIndex = 11;
+            this.nameInput.TabIndex = 1;
             // 
             // rushOrderLabel
             // 
@@ -197,7 +197,7 @@
             // 
             this.pageTitle.AutoSize = true;
             this.pageTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pageTitle.Location = new System.Drawing.Point(289, 21);
+            this.pageTitle.Location = new System.Drawing.Point(287, 21);
             this.pageTitle.Name = "pageTitle";
             this.pageTitle.Size = new System.Drawing.Size(123, 25);
             this.pageTitle.TabIndex = 17;
@@ -232,7 +232,7 @@
             this.materialComboBox.Location = new System.Drawing.Point(507, 176);
             this.materialComboBox.Name = "materialComboBox";
             this.materialComboBox.Size = new System.Drawing.Size(112, 32);
-            this.materialComboBox.TabIndex = 19;
+            this.materialComboBox.TabIndex = 6;
             // 
             // rushComboBox
             // 
@@ -246,7 +246,7 @@
             this.rushComboBox.Location = new System.Drawing.Point(507, 229);
             this.rushComboBox.Name = "rushComboBox";
             this.rushComboBox.Size = new System.Drawing.Size(112, 32);
-            this.rushComboBox.TabIndex = 20;
+            this.rushComboBox.TabIndex = 7;
             // 
             // AddQuote
             // 

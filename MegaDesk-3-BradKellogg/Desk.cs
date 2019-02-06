@@ -84,7 +84,7 @@ namespace MegaDesk_3_BradKellogg
 
         public float calcDeskPrice()
         {
-            float price = 0;
+            float price = 200;
 
             if (width * depth > 1000)
             {

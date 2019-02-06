@@ -19,7 +19,18 @@ namespace MegaDesk_3_BradKellogg
 
         private void addQuoteButton_Click(object sender, EventArgs e)
         {
-            Desk newDesk = new Desk(Int32.Parse(widthInput.Text), Int32.Parse(depthInput.Text), Int32.Parse(drawersInput.Text));
+            int spaceIndex = nameInput.Text.IndexOf(' ');
+            string tempfName = nameInput.Text.Substring(0, spaceIndex);
+            string tempLName = nameInput.Text.Substring(spaceIndex + 1);
+
+            Desk desk = new Desk(Int32.Parse(widthInput.Text), Int32.Parse(depthInput.Text), Int32.Parse(drawersInput.Text));
+            desk.setMaterial(materialComboBox.Text);
+
+            DeskQuote quote = new DeskQuote(tempfName, tempLName, Int32.Parse(rushComboBox.Text), DateTime.Now);
+            quote.setQuote(quote.calcRushPrice(desk.getWidth(), desk.getDepth()) + desk.calcDeskPrice());
+
+            quote.outputToFile("C:\\Users\\Brad\\source\\repos\\MegaDesk1.1-BradKellogg\\MegaDesk-3-BradKellogg\\quotes.txt");
+
             var mainMenu = (MainMenu)Tag;
             mainMenu.Show();
             Close();

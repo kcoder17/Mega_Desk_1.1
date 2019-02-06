@@ -120,9 +120,18 @@ namespace MegaDesk_3_BradKellogg
                         price += 35;
                     }
                     break;
+                default:
+                    price = 0;
+                    break;
             }
 
             return price;
+        }
+
+        public void outputToFile(string filePath)
+        {
+            string output = firstName + ' ' + lastName + '\t' + rushDays + '\t' + quote + '\t' + orderDate + Environment.NewLine;
+            System.IO.File.AppendAllText(@filePath, output);
         }
     }
 }
